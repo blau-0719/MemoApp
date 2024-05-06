@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from "react-native"
 
-const memoListItem = (): JSX.Element => {
+const MemoListItem = (): JSX.Element => {
   return (
     <View style={styles.memoListItem}>
       <View>
@@ -36,4 +36,4 @@ const styles = StyleSheet.create({
   },
 })
 
-export default memoListItem
+export default MemoListItem
